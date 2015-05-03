@@ -1,0 +1,357 @@
+<Levels>
+    <Level_floor key = "1">
+        <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "465" Ypos= "225" width = "25" height = "25" />
+        <Object objectMethod ="4" type ="2" location = "backgrounds/Level0.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+        <Object objectMethod ="4" type ="2" location = "text/Tilt.png" Xpos = "151" Ypos = "21" width= "200" height="100"/>
+        <Object objectMethod ="4" type ="2" location = "text/Touch.png" Xpos = "430" Ypos = "170" width= "100" height="50"/>
+        <Object objectMethod = "5" x = "35" y = "224" />
+    </Level_floor>
+    
+    <Level_floor key = "2">
+        <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "465" Ypos= "225" width = "25" height = "25" />
+        <Object objectMethod ="4" type ="2" location = "backgrounds/Level0.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+        <Object objectMethod ="4" type ="2" location = "text/Press.png" Xpos = "15" Ypos = "25" width= "80" height="40"/>
+        <Object objectMethod = "5" x = "35" y = "130" />
+    </Level_floor>
+    
+    <Level_floor key = "3">
+        <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "465" Ypos= "225" width = "25" height = "25" />
+        <Object objectMethod ="4" type ="2" location = "backgrounds/Level0.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+        <Object objectMethod ="4" type ="2" location = "text/Tap!.png" Xpos = "151" Ypos = "25" width= "200" height="100"/>
+         <Object objectMethod ="4" type ="1" location = "text/Gray.png" Xpos = "40" Ypos = "125" width= "408" height="204"/>
+        <Object objectMethod ="1" type ="Entity" Dimension = "0"  Xpos = "421" Ypos= "195" width = "102" height = "5" />
+        <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "21" Ypos= "195" width = "400" height = "5" />
+        <Object objectMethod = "5" x = "35" y = "160" />
+    </Level_floor>
+    
+    <Level_floor key = "4">
+        <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "465" Ypos= "225" width = "25" height = "25" />
+        <Object objectMethod ="4" type ="2" location = "backgrounds/Level0.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+        <Object objectMethod ="4" type ="0" location = "text/GoodLuck.png" Xpos = "0" Ypos = "0" width= "544" height="272"/>
+        <Object objectMethod = "5" x = "35" y = "224" />
+    </Level_floor>
+    
+    <Level_floor key = "5">
+        <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "495" Ypos= "225" width = "25" height = "25" />
+        <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+        <Object objectMethod ="4" type ="0" location = "text/WhereAmI.png" Xpos = "21" Ypos = "21" width= "544" height="136"/>
+        <Object objectMethod = "5" x = "35" y = "21" />
+        
+        
+    </Level_floor>
+    
+    <Level_floor key = "6">
+        <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "21" Ypos= "55" width = "150" height = "5" />
+        <Object objectMethod ="1" type ="Entity" Dimension = "2" Xpos = "141" Ypos= "125" width = "150" height = "5" />
+        <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "261" Ypos= "195" width = "150" height = "5" />
+        <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "495" Ypos= "225" width = "25" height = "25" />
+        <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+        <Object objectMethod ="4" type ="0" location = "text/WhoAmI.png" Xpos = "135" Ypos = "5" width= "450" height="100"/>
+        <Object objectMethod = "5" x = "65" y = "21" />
+    </Level_floor>
+    
+    <Level_floor key = "7">
+        <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+        <Object objectMethod ="4" type ="0" location = "text/IFeelNoPain.png" Xpos = "0" Ypos = "110" width= "544" height="136"/>
+        <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "21" Ypos= "150" width = "502" height = "5" />
+        <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "495" Ypos= "120" width = "25" height = "25" />
+        <Object objectMethod = "5" x = "65" y = "21" />
+		
+        
+    </Level_floor>
+    
+    <Level_floor key = "8">
+       <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+       <Object objectMethod ="4" type ="0" location = "text/DoIHaveAnyPowers.png" Xpos = "-8" Ypos = "90" width= "544" height="136"/>
+	   <Object objectMethod ="1" type ="Entity" Dimension = "0"  Xpos = "21" Ypos= "135" width = "502" height = "5" />
+	   <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "51" Ypos= "75" width = "442" height = "5" />
+	   <Object objectMethod = "5" x = "242" y = "45" />
+	   <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "245" Ypos= "225" width = "25" height = "25" />
+    </Level_floor>
+    
+    <Level_floor key = "9">
+       <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "90" Ypos= "250" width = "20" height = "1" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "155" Ypos= "200" width = "300" height = "5" />
+       <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "490" Ypos= "120" width = "25" height = "25" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "455" Ypos= "150" width = "50" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "430" Ypos= "199" width = "20" height = "1" />
+       <Object objectMethod = "5" x = "21" y = "220" />
+       <Object objectMethod ="4" type ="0" location = "text/ICanJump.png" Xpos = "0" Ypos = "5" width= "450" height="100"/>
+    </Level_floor>
+    
+     <Level_floor key = "10">
+       <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+       <Object objectMethod ="4" type ="0" location = "text/WhyCantIJump.png" Xpos = "0" Ypos = "5" width= "450" height="100"/>
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "90" Ypos= "250" width = "20" height = "1" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "155" Ypos= "180" width = "200" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "220" Ypos= "179" width = "20" height = "1" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "335" Ypos= "179" width = "20" height = "1" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "390" Ypos= "108" width = "200" height = "5" />
+       <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "495" Ypos= "80" width = "25" height = "25" />
+       <Object objectMethod = "5" x = "21" y = "220" />
+    </Level_floor>
+    
+     <Level_floor key = "11">
+       <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "50" Ypos= "149" width = "20" height = "1" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "155" Ypos= "180" width = "50" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "185" Ypos= "179" width = "20" height = "1" />
+       <Object objectMethod = "5" x = "21" y = "120" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "21" Ypos= "150" width = "49" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "230" Ypos= "170" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "250" Ypos= "170" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "270" Ypos= "170" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "290" Ypos= "170" width = "5" height = "5" />
+       <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "430" Ypos= "70" width = "25" height = "25" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "310" Ypos= "170" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "340" Ypos= "170" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "370" Ypos= "170" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "400" Ypos= "170" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "430" Ypos= "170" width = "5" height = "5" />
+       <Object objectMethod ="4" type ="0" location = "text/WhyMustIDie.png" Xpos = "0" Ypos = "35" width= "450" height="100"/>
+    </Level_floor>
+    
+     <Level_floor key = "12">
+       <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "241" Ypos= "250" width = "20" height = "1" />
+       <Object objectMethod = "5" x = "241" y = "224" />
+       <Object objectMethod ="3" type ="Saw" Dimension = "1"  Xpos = "239" Ypos= "110" width = "25" height = "25" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "161" Ypos= "220" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "341" Ypos= "220" width = "5" height = "5" />
+       
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "441" Ypos= "180" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "61" Ypos= "180" width = "5" height = "5" />
+       
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "101" Ypos= "120" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "401" Ypos= "120" width = "5" height = "5" />
+       <Object objectMethod ="4" type ="0" location = "text/WhereIs.png" Xpos = "45" Ypos = "5" width= "450" height="100"/>
+    </Level_floor>
+    
+     <Level_floor key = "13">
+       <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+       <Object objectMethod = "5" x = "22" y = "108" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "21" Ypos= "135" width = "25" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "120" Ypos= "135" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "204" Ypos= "135" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "288" Ypos= "135" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "372" Ypos= "135" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "456" Ypos= "135" width = "5" height = "5" />
+       <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "500" Ypos= "35" width = "25" height = "25" />
+       <Object objectMethod ="4" type ="0" location = "text/DoIHaveToo.png" Xpos = "0" Ypos = "135" width= "544" height="136"/>
+    </Level_floor>
+    
+     <Level_floor key = "14">
+       <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+       <Object objectMethod = "5" x = "22" y = "108" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "21" Ypos= "135" width = "25" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "120" Ypos= "135" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "160" Ypos= "135" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "204" Ypos= "135" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "244" Ypos= "135" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "288" Ypos= "135" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "328" Ypos= "135" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "372" Ypos= "135" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "412" Ypos= "135" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "456" Ypos= "135" width = "5" height = "5" />
+       <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "490" Ypos= "35" width = "25" height = "25" />
+       <Object objectMethod ="4" type ="0" location = "text/DeathIsEndless.png" Xpos = "0" Ypos = "155" width= "450" height="100"/>
+    </Level_floor>
+    
+     <Level_floor key = "15">
+       <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+       <Object objectMethod = "5" x = "22" y = "183" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "0"  Xpos = "21" Ypos= "210" width = "35" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "56" Ypos= "210" width = "15" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "145" Ypos= "180" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "234" Ypos= "150" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "323" Ypos= "150" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "412" Ypos= "150" width = "5" height = "5" />
+       <Object objectMethod ="3" type ="Saw" Dimension = "0"  Xpos = "492" Ypos= "120" width = "25" height = "25" />
+       <Object objectMethod ="4" type ="0" location = "text/DeathIsPointless.png" Xpos = "0" Ypos = "5" width= "450" height="100"/>
+    </Level_floor>
+    
+     <Level_floor key = "16">
+       <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+       <Object objectMethod = "5" x = "302" y = "90" />
+       <Object objectMethod ="6" type ="Block" Dimension = "2"  Xpos = "365" Ypos= "95" width = "10" height = "155" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "365" Ypos= "88" width = "10" height = "163" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "270" Ypos= "88" width = "105" height = "7" />
+       <Object objectMethod ="6" type ="Block" Dimension = "2"  Xpos = "290" Ypos= "95" width = "10" height = "35" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "290" Ypos= "88" width = "10" height = "40" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "290" Ypos= "128" width = "45" height = "5" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "0"  Xpos = "335" Ypos= "128" width = "30" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "290" Ypos= "250" width = "20" height = "1" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "180" Ypos= "215" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "160" Ypos= "125" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "270" Ypos= "115" width = "15" height = "5" />
+       <Object objectMethod ="6" type ="Block" Dimension = "2"  Xpos = "405" Ypos= "21" width = "10" height = "183" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "405" Ypos= "21" width = "10" height = "178" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "430" Ypos= "250" width = "20" height = "1" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "450" Ypos= "170" width = "5" height = "5" />
+       <Object objectMethod ="3" type ="Saw" Dimension = "1"  Xpos = "450" Ypos= "80" width = "25" height = "25" />
+       <Object objectMethod ="4" type ="0" location = "text/LooksSticky.png" Xpos = "-30" Ypos = "-10" width= "544" height="136"/>
+    </Level_floor>
+    
+     <Level_floor key = "17">
+       <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+       <Object objectMethod = "5" x = "242" y = "224" />
+       <Object objectMethod ="6" type ="Block" Dimension = "2"  Xpos = "165" Ypos= "91" width = "10" height = "160" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "165" Ypos= "88" width = "10" height = "163" />
+       <Object objectMethod ="6" type ="Block" Dimension = "2"  Xpos = "328" Ypos= "91" width = "10" height = "160" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "328" Ypos= "88" width = "10" height = "163" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "308" Ypos= "250" width = "20" height = "1" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "175" Ypos= "250" width = "20" height = "1" />
+       
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "175" Ypos= "140" width = "10" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "318" Ypos= "140" width = "10" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "245" Ypos= "180" width = "5" height = "5" />
+       <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "480" Ypos= "225" width = "25" height = "25" />
+       <Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "38" Ypos= "225" width = "25" height = "25" />
+       <Object objectMethod ="4" type ="0" location = "text/IAcceptDeath.png" Xpos = "40" Ypos = "5" width= "450" height="100"/>
+     </Level_floor>
+    
+     <Level_floor key = "18">
+       <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+       <Object objectMethod = "5" x = "22" y = "224" />
+       <Object objectMethod ="6" type ="Block" Dimension = "2"  Xpos = "135" Ypos= "91" width = "10" height = "160" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "135" Ypos= "88" width = "10" height = "163" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "115" Ypos= "250" width = "20" height = "1" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "90" Ypos= "180" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "115" Ypos= "140" width = "20" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "145" Ypos= "150" width = "15" height = "5" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "0"  Xpos = "450" Ypos= "140" width = "40" height = "5" />
+       <Object objectMethod ="3" type ="Saw" Dimension = "0"  Xpos = "485" Ypos= "170" width = "25" height = "25" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "250" Ypos= "180" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "350" Ypos= "150" width = "5" height = "5" />
+       <Object objectMethod ="4" type ="0" location = "text/IEmbraceIt.png" Xpos = "120" Ypos = "5" width= "450" height="100"/>
+    </Level_floor>
+    
+     
+    
+     <Level_floor key = "19">
+       <Object objectMethod ="4" type ="2" location = "backgrounds/level10.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+       <Object objectMethod ="6" type ="Block" Dimension = "2"  Xpos = "80" Ypos= "21" width = "10" height = "133" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "80" Ypos= "21" width = "10" height = "128" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "82" Ypos= "210" width = "5" height = "5" />
+       
+       <Object objectMethod ="6" type ="Block" Dimension = "2"  Xpos = "300" Ypos= "21" width = "10" height = "133" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "300" Ypos= "21" width = "10" height = "128" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "302" Ypos= "210" width = "5" height = "5" />
+       
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "115" Ypos= "170" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "90" Ypos= "110" width = "15" height = "5" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "90" Ypos= "60" width = "170" height = "5" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "1"  Xpos = "260" Ypos= "60" width = "40" height = "5" />
+       
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "400" Ypos= "200" width = "5" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "500" Ypos= "160" width = "5" height = "5" />
+       
+       <Object objectMethod ="3" type ="Saw" Dimension = "0"  Xpos = "475" Ypos= "55" width = "25" height = "25" />
+       
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "21" Ypos= "60" width = "30" height = "5" />
+       <Object objectMethod = "5" x = "22" y = "33" />
+       <Object objectMethod ="4" type ="0" location = "text/IAmInDeath.png" Xpos = "-40" Ypos = "190" width= "450" height="100"/>
+    </Level_floor>
+    
+    <Level_floor key = "20">
+        <Object objectMethod ="4" type ="2" location = "backgrounds/PaintLevel.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+        <Object objectMethod ="1" type ="Entity" Dimension = "0"  Xpos = "21" Ypos= "60" width = "502" height = "5" />
+        <Object objectMethod = "5" x = "495" y = "224" />
+        <Object objectMethod ="6" type ="Block" Dimension = "2"  Xpos = "125" Ypos= "101" width = "10" height = "160" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "125" Ypos= "98" width = "10" height = "163" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "0"  Xpos = "125" Ypos= "98" width = "200" height = "5" />
+        <Object objectMethod ="3" type ="Saw" Dimension = "1"  Xpos = "55" Ypos= "30" width = "25" height = "25" />
+         <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "145" Ypos= "240" width = "20" height = "10" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "170" Ypos= "200" width = "10" height = "5" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "145" Ypos= "145" width = "10" height = "5" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "305" Ypos= "90" width = "20" height = "10" />
+        
+    </Level_floor>
+    
+    <Level_floor key = "22">
+        <Object objectMethod ="4" type ="2" location = "backgrounds/level10.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+        <Object objectMethod = "5" x = "241" y = "224" />
+        <Object objectMethod ="3" type ="Saw" Dimension = "0"  Xpos = "498" Ypos= "21" width = "25" height = "25" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "241" Ypos= "250" width = "20" height = "1" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "391" Ypos= "170" width = "5" height = "5" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "341" Ypos= "200" width = "5" height = "5" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "181" Ypos= "200" width = "5" height = "5" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "131" Ypos= "170" width = "5" height = "5" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "101" Ypos= "150" width = "5" height = "5" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "61" Ypos= "80" width = "5" height = "5" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "421" Ypos= "150" width = "5" height = "5" />
+        <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "21" Ypos= "16" width = "470" height = "5" />
+        <Object objectMethod ="4" type ="0" location = "text/IAmOutsideTheBox.png" Xpos = "0" Ypos = "5" width= "450" height="100"/>
+
+    </Level_floor>
+    
+    <Level_floor key = "21">
+        <Object objectMethod ="4" type ="2" location = "backgrounds/level10.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+        <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "440" Ypos= "90" width = "83" height = "5" />
+        <Object objectMethod = "5" x = "455" y = "85" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "420" Ypos= "250" width = "20" height = "1" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "340" Ypos= "185" width = "5" height = "5" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "270" Ypos= "185" width = "5" height = "5" />
+        <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "205" Ypos= "160" width = "5" height = "5" />
+        
+        <Object objectMethod ="7" type ="Jumper" Dimension = "2"  Xpos = "375" Ypos= "110" width = "1" height = "1" />
+        
+        <Object objectMethod ="6" type ="Block" Dimension = "2"  Xpos = "100" Ypos= "19" width = "550" height = "2" />
+        <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "100" Ypos= "19" width = "550" height = "2" />
+        
+        <Object objectMethod ="6" type ="Block" Dimension = "2"  Xpos = "100" Ypos= "91" width = "10" height = "160" />
+        <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "100" Ypos= "88" width = "10" height = "163" />
+        <Object objectMethod ="3" type ="Saw" Dimension = "0"  Xpos = "50" Ypos= "220" width = "25" height = "25" />
+        <Object objectMethod ="4" type ="0" location = "text/IThinkOutsideTheBox.png" Xpos = "30" Ypos = "5" width= "450" height="100"/>
+    </Level_floor>
+    
+    <Level_floor key = "23">
+         <Object objectMethod ="4" type ="2" location = "backgrounds/level10.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+         <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "90" Ypos= "250" width = "20" height = "1" />
+         <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "425" Ypos= "250" width = "20" height = "1" />
+         <Object objectMethod = "5" x = "242" y = "224" />
+         <Object objectMethod ="1" type ="Entity" Dimension = "0"  Xpos = "21" Ypos= "175" width = "502" height = "5" />
+         <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "247" Ypos= "205" width = "5" height = "5" />
+         <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "247" Ypos= "135" width = "5" height = "5" />
+         <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "370" Ypos= "135" width = "5" height = "5" />
+         <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "150" Ypos= "135" width = "5" height = "5" />
+         <Object objectMethod ="3" type ="Saw" Dimension = "1"  Xpos = "455" Ypos= "115" width = "25" height = "25" />
+         <Object objectMethod ="3" type ="Saw" Dimension = "1"  Xpos = "35" Ypos= "115" width = "25" height = "25" />
+         <Object objectMethod ="4" type ="0" location = "text/NoMatterWhatITry.png" Xpos = "40" Ypos = "5" width= "450" height="100"/>
+    </Level_floor>
+    
+    <Level_floor key = "24">
+        <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+       <Object objectMethod = "5" x = "22" y = "183" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "0"  Xpos = "21" Ypos= "210" width = "35" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "56" Ypos= "210" width = "15" height = "5" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "1"  Xpos = "80" Ypos= "155" width = "10" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "165" Ypos= "180" width = "5" height = "5" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "0"  Xpos = "189" Ypos= "125" width = "10" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "1"  Xpos = "274" Ypos= "150" width = "5" height = "5" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "1"  Xpos = "298" Ypos= "95" width = "10" height = "5" />
+       <Object objectMethod ="7" type ="Jumper" Dimension = "0"  Xpos = "383" Ypos= "120" width = "5" height = "5" />
+       <Object objectMethod ="1" type ="Entity" Dimension = "0"  Xpos = "407" Ypos= "65" width = "10" height = "5" />
+
+       <Object objectMethod ="3" type ="Saw" Dimension = "0"  Xpos = "492" Ypos= "120" width = "25" height = "25" />
+       <Object objectMethod ="4" type ="0" location = "text/ImAlwaysGoinToDie.png" Xpos = "70" Ypos = "185" width= "450" height="100"/>
+    </Level_floor>
+    
+    <Level_floor key = "25">
+       <Object objectMethod ="4" type ="2" location = "backgrounds/Level1.png" Xpos = "21" Ypos = "21" width= "502" height="230"/>
+         <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "21" Ypos= "65" width = "480" height = "5" />
+         <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "43" Ypos= "109" width = "480" height = "5" />
+         <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "21" Ypos= "153" width = "480" height = "5" />
+         <Object objectMethod ="1" type ="Entity" Dimension = "2"  Xpos = "43" Ypos= "197" width = "480" height = "5" />
+         <Object objectMethod ="4" type ="0" location = "text/WhyIsDeathMyDoor.png" Xpos = "25" Ypos = "5" width= "450" height="100"/>
+         <Object objectMethod ="4" type ="1" location = "text/ADoorToWhere.png" Xpos = "25" Ypos = "49" width= "450" height="100"/>
+         <Object objectMethod ="4" type ="0" location = "text/IDontKnow.png" Xpos = "-10" Ypos = "93" width= "450" height="100"/>
+         <Object objectMethod ="4" type ="1" location = "text/InDeathIHaveOneDoor.png" Xpos = "75" Ypos = "137" width= "450" height="100"/>
+         <Object objectMethod ="4" type ="0" location = "text/DeathIsOnlyAdoor.png" Xpos = "30" Ypos = "181" width= "450" height="100"/>
+   		<Object objectMethod ="3" type ="Saw" Dimension = "2"  Xpos = "480" Ypos= "220" width = "25" height = "25" />
+     </Level_floor>
+    
+    
+    
+</Levels>
