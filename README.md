@@ -18,7 +18,7 @@ https://libgdx.badlogicgames.com
 
 **History of app (was published to the Google Play Store):**
 
-1. Publish to the Google Play store on October 1, 2014
+1. Published to the Google Play store on October 1, 2014
 2. By February 1, 2015 the app had 5,000-10,000 downloads marked. The app's rating was at 4.3 stars with 27 reviews total.
 3. App was removed on due to lack of start menu which did not follow Google Play's publishing requirements.
 4. End of app's life, and lesson learned.
