@@ -1,11 +1,6 @@
 package Levels;
 
 import java.util.ArrayList;
-
-
-
-
-
 import objects.Block;
 import objects.Entity;
 import objects.EntityManager;
@@ -19,7 +14,6 @@ import world_handler.Restarter;
 import world_handler.XmlLoader;
 import assests.Assest_Manager;
 import assests.Assets_Level;
-
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Orientation;
@@ -30,16 +24,26 @@ import com.mygdx.DeathDoor.DeathDoorGame;
 import com.mygdx.DeathDoor.End_scene;
 import com.mygdx.DeathDoor.Intro_scene;
 
+/*
+Copyright by Jonathan Simeon Kumamoto 2014
+
+This file is the "core" file, bringing together all the parts and pieces to fully create this game
+
+*/
+
 public class Level_Default implements Screen {
 	private GameWorld world;
 	private RenderScreen level_render;
 	private DeathDoorGame global;
-	public static Orientation orientation;  //this is for the screen tilt
-	private Sound death_sound =  Assest_Manager.manager.get(Assest_Manager.death, Sound.class);
+	public static Orientation orientation;  //this is for the screen tilt when the user changes dimensions
+	private Sound death_sound =  Assest_Manager.manager.get(Assest_Manager.death, Sound.class); //sound file for the character death
 	public static final String MyCopyright = "Copyright 2014 by Jonathan Simeon Kumamoto"; 
 	
 	
-	//BELOW IS NON-SPECIFIC FOR LEVEL_"NAME"
+	/*
+	BELOW IS NON-SPECIFIC FOR LEVEL_"NAME"
+	this is extremely important because it allows to reload this "level loader" and simply load objects from an .xml file
+	*/
 	private Intro_scene introduction;
 	private Restarter reset;
 	private EntityManager manager;
@@ -48,19 +52,22 @@ public class Level_Default implements Screen {
 	public static ArrayList<String[]>loaded_images= new ArrayList<String[]>();
 	public static int controls = 0; //0 = tilt & 1 = touch screen
 	public static int death = 0; //0 = character alive, 1 means its dead NOW play animation+sound
-	private int death_time = 75;
+	private int death_time = 75; //this is so the game does not change the screen right away
 	
 
 	
 	public Level_Default(){
 		//
-		world = new GameWorld(21, 21, 19, 27); //change this input to make ME change according to XML
+		world = new GameWorld(21, 21, 19, 27); //change this input to make ME starting location change according to XML
+						       //ME = character, GameWorld(ME width, ME height, ME x position, ME y position)
 		manager = new EntityManager();
 		Level_xml(manager);
 		levelAssets = new Assets_Level(loaded_images);
 		level_render = new RenderScreen(world, manager, levelAssets);
 		reset = new Restarter(world, manager, levelAssets, level_render, this);
 		int level = Integer.parseInt(global.LEVEL);
+		
+		//This switch control the music that plays based on what level the user is currently at
 		switch(level){
 		case 1:
 			introduction.Welcome.play();
@@ -79,16 +86,16 @@ public class Level_Default implements Screen {
 		
 		
 		
-
-		//////////////////////////////BELOW IS SO IMPORTANT/////////////////////////////////////////////
-		/////////////////////////////*Below is where you add manager objects so say manager.addobject~~*
-		//manager.addObject == making platform
-		//manager.addS_Ojbect == making stairs
-		//manager.addK_Object == killer platform
-
+		/*
+		***************************************BELOW IS IMPORTANT***************************************
+		*************************************Below is where you add manager objects so say manager.addobject~~*
+		manager.addObject == making platform
+		manager.addS_Ojbect == making stairs
+		manager.addK_Object == killer platform/object
 		
-		//////////////////////////////////////////////////////// remember how being specific is important LOL
-		///////////////////////////////ABOVE IS SO IMPORTANT////////////////////////////////////////////
+		Take note that being specific pixel by pixel is important
+		
+		*/
 		
 		
 		//this is the accelerametor
@@ -96,13 +103,16 @@ public class Level_Default implements Screen {
 		//below is the input handler for dimensions ONLY
 		Gdx.input.setInputProcessor(new DOD_Handler(world, reset));      //this SETS UP touchscreen
 	}
-	public void Level_xml(EntityManager manager){ //purpose is to CREATE OBJECTS based on the xml filed
+	
+	//Purpose is to CREATE OBJECTS based on the xml filed
+	public void Level_xml(EntityManager manager){ 
 																					// and its "key" for which level should be played...
 		XmlLoader loader = new XmlLoader();
 		
 		for (String[] i : loader.main(args)){ //goes through all objects in game
 			int OBJECT = Integer.parseInt(i[0]);
 			
+			//Initiates a game object based on the number the .xml gives and parses based on those given characteristics
 			switch(OBJECT){
 			case 1:
 				manager.addObject(new Entity(Integer.parseInt(i[1]),new Vector2(Float.parseFloat(i[2]),Float.parseFloat(i[3]))
@@ -151,6 +161,7 @@ public class Level_Default implements Screen {
 		}
 		
 	}
+	//Called when character has died
 	public void death(){
 		switch(death_time){
 			case 0:
@@ -166,12 +177,12 @@ public class Level_Default implements Screen {
 				break;
 		}
 	}
-	public void newGame(){ //ALWAYS RESEARCH HOW TO MAKE THIS BETTER TO MAKE GAME
-											//ALLOCATE LESS MEMORY (DO IT JONATHAN)
+	//This resets the game or levels extremely quickly for a better user experience
+	public void newGame(){
 		int New_level = Integer.parseInt(global.LEVEL)+1;
 		switch(New_level){
 		case 26:
-			//this means its ENDING scene
+			//this means its ENDING scene, user has completed the game
 			reset.RESTART();
 			global.LEVEL = Integer.toString(1);
 			introduction.Level10.stop();
